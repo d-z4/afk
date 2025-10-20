@@ -13,4 +13,4 @@ Built `afk-VERSION.jar` will appear in `build/libs/`.
 
 # License
 Licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
-See [LICENSE.md](./LICENSE.md).
+See [LICENSE](./LICENSE).
