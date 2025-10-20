@@ -1,5 +1,5 @@
 name: afk
-version: '1.0'
+version: '${version}'
 main: me.luna.afk.AFK
 api-version: '1.21.8'
 prefix: AFK
