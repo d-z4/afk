@@ -1,0 +1,24 @@
+interval-minutes: 5
+
+command: "give {player} diamond 1"
+
+actionbar:
+  title: "{percentage}% | {bar} | {time}"
+
+bar:
+  length: 16
+  filled-character: "█"
+  empty-character: "█"
+  filled-color: "&d"
+  empty-color: "&7"
+
+area:
+  world: "world"
+  pos1:
+    x: -100
+    y: 0
+    z: -100
+  pos2:
+    x: 100
+    y: 256
+    z: 100

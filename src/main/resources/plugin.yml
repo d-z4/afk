@@ -1,0 +1,16 @@
+name: afk
+version: '1.0'
+main: me.luna.afk.AFK
+api-version: '1.21.8'
+prefix: AFK
+authors: [ luna ]
+description: runs commands when people are afk in an area, e.g. for afk rewards
+website: https://github.com/d-z4/afk
+
+commands:
+  afk:
+    permission: "afk.admin"
+    
+permissions:
+  afk.admin:
+    default: op
