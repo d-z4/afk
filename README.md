@@ -1,12 +1,11 @@
 # AFK plugin
 
-A simple Spigot plugin that executes a command for players who stay AFK in an area, with a progress bar, can be used to give rewards crates etc. to players.
+A simple Spigot plugin that executes a command for players who stay AFK in an area, with a progress bar, can be used to give rewards, crates etc. to players.
 
 ## Build
 Requirements:
 - Java JDK 21 (current plugin target java version)
 
-run
 ```
 ./gradlew build
 ```
