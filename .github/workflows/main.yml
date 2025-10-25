@@ -26,6 +26,7 @@ jobs:
           VERSION=""
           if [ -f "build.gradle" ]; then
             VERSION=$(grep -E "version\s*=\s*['\"]" build.gradle | sed -E "s/.*version\s*=\s*['\"]([^'\"]+)['\"].*/\1/" | head -n 1)
+          fi
           if [ -z "$VERSION" ]; then
             echo "Could not determine version"
             exit 1
